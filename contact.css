@@ -1,0 +1,40 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    background: rgb(222, 238, 128);
+}
+h1{
+    background: rgba(97, 84, 84, 0.669);
+    opacity: 0.8;
+    padding-left: 20px;
+    font-size: 52px;
+    color: whitesmoke;
+}
+.Container{
+    font-size: 16px;
+}
+.contact-box{
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 540px;
+    padding: 30px 30px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.549);
+    
+}
+button{
+    padding: 10px 20px;  
+    border: none;
+    /*transition: 0.2s ease-in-out;*/
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.723);
+    border-radius: 30px;
+}
+button:hover{
+    cursor: pointer;
+    background: black;
+    color: whitesmoke;
+}

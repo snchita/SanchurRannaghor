@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signin_box{
+    margin: auto;
+    padding: 10px 10px;
+    height: 600px;
+    width: 380px;
+    background: hsla(0, 85%, 68%, 0.499);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.signin_box h1{
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.signin_btn{
+    padding-left: 30%;
+}
+button{
+    padding: 5px 30px;   
+    border: none;
+    transition: 0.2s ease-in-out;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.213);
+    border-radius: 30px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.lgin a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+.lgin:hover{
+    transition: 0.2s;
+    text-decoration:underline;
+}

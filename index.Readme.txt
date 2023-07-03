@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanchur Rannaghor</title>
+</head>
+<body>
+    <h1>Welcome to Sanchur Rannaghor</h1>
+    <hr>
+    <p>I am Sanchita Hati ,Cooking is my favourite hobby.I am not a proffestional Chef,<br>Cook just for my own choice. I learn various item from youtube and explore my ideas and<br> use differnt trick in my food to make delicious item.</p>    
+    <h2>So let's go to my kitchen ..........</h2>
+    <hr>
+    <h3>Year of 2020 : story of my first lession of learn cooking</h3>
+    <p>During lockdown I explore my cooking skill !<br> 1st time I make eggroll with help of <b>my didi</b>,<br><em> she was helped me to make paratha and i cook omlet and wrapped on the paratha with Onion, cucumber,carrot,or some sauce and teste of salt.</em>----it like delicious.</p>
+    <p>From this i find a unique me in myself that is <b><i>Chef Sanchu</i>!!!</b></p>
+    <hr>
+    <h3>My cooking items are :</h3>
+    <p><b>Starter</b></p>
+    <ol type="a">
+        <li>Eggroll</li>
+        <li>Momo</li>
+        <li>Pakora(veg/non-veg)</li>
+        <li>Phuchka</li>
+        <li>Chicken tikka</li>
+        <li>Special tea</li>
+        <li>veg sandwich</li>
+        <li>Egg toast</li>
+        <li>Egg poach</li>
+        <li>Jhalmuri</li>
+    </ol>
+    <hr>
+    <p><b>Main course</b></p>
+    <ol type="i">
+        <li>Pasta</li>
+        <li>Maggie chowmin</li>
+        <li>Mix chowmin</li>
+        <li>Egg korma</li>
+        <li>Rumali ruti</li>
+        <li>Chilli paneer</li>
+        <li>Pizza</li>
+        <li>Chicken Rezala</li>
+        <li>Paneer do piyaja</li>
+        <li>Murgir jhol </li>
+        <li>Aloo bhuna with paratha</li>
+        <li>Paneer carry</li>
+        <li>Spicy red Pasta</li>
+        <li>Egg Manchurian</li>
+        <li>Chicken chaap</li>
+        <li>Chicken tikka masala</li>
+        <li>Chilli Chicken</li>
+        <li>Lebu Chicken</li>
+        <li>Chicken butter Masala with baby naan</li>
+        <li>Soya carry</li>
+        <li>Saahi Paneer</li>
+        <li>Dudh Paneer</li>
+        <li>Vetki paturi</li>
+        <li>Doi begun</li>
+        <li>Doi Katla</li>
+        <li>Polao</li>
+    </ol>
+    <hr>
+    <p><b>dessert item</b> </p>
+    <ul>
+        <li>Misti bode</li>
+        <li>Patisapta</li>
+        <li>Oreo modak</li>
+    </ul>
+</body>
+</html>

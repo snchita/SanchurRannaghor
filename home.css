@@ -1,0 +1,253 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-image: url(main_bgimg.jpg);
+    box-shadow: 5px 5px 5px black;
+    position: sticky;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1,4;
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    padding-bottom: 0px;
+}
+header:hover{
+    opacity: 0.8;
+}
+/* .home{
+    
+    display: flex;
+    justify-content: center;
+} */
+.home:hover{
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+    /*
+    opacity: 0.8;
+    width: 50px;
+    height: 25px;
+    background: transparent;
+    border: 2px solid white;
+    background-color: rgb(174, 231, 231);
+    color: black;
+    border-width: 3px;
+    
+    transition: 0.2s;*/
+
+nav{
+    padding-top: 10px;
+    margin: auto;
+    position: sticky;
+    margin-bottom: 0;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+nav a{
+    padding: 40px;
+    color: #faf6f6;
+    text-decoration: none;
+    
+}
+/* nav:hover{
+    background: #f5f5f593;
+} */
+.block_container{
+    height: 600px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    /* margin: 50px;
+    padding: 40px;
+    background: transparent;
+    background-position: 0dvh; */
+}
+.container{
+    color: azure;
+    text-align: center;
+}
+.main{
+    height: auto;
+    background-image: url(Jhal-Muri-2-3.jpg);
+    opacity: 0.8;
+}
+h4{
+    color: rgb(9, 9, 9);
+    text-align: center;
+    margin-top: 20px;
+}
+/*
+footer{
+    margin: 2x;
+    padding: 5px;
+    background-color: rgb(26, 26, 29);
+    color: rgb(247, 242, 242);
+    position: relative;
+    display: flex;
+    justify-content: right;
+}*/
+.foot{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(246, 243, 243);
+    background: black;
+    flex-direction: row;
+}
+
+footer a{
+    color: rgb(250, 249, 249);
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.info a{
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.smily_text{
+    padding: 40px;
+    text-align: center;
+    color: antiquewhite;
+
+}
+.circle_img h3{
+    text-align: center;
+    color: white;
+}
+.smiley{
+    opacity: 1;
+    height: fit-content;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: content-box; 
+    background: rgba(221, 209, 232, 0.072);
+}
+.smiley img{
+    border-radius: 50%;
+}
+.smiley:hover{
+    opacity: 1.5;
+}
+.block_container{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content h1{
+    font-size: 72px;
+    font-weight: 300;
+    font-style: initial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-kerning: none;
+}
+.hero-content p{
+    font-weight: 50px;
+    font-size: 15px;
+    color: rgb(8, 8, 8);
+   
+}
+.tag{
+
+    color: #151515;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.tag:hover{
+    color: rgb(248, 246, 246);
+}
+.hero-content{
+    padding: 20px 50px;
+    background-color: rgba(243, 246, 249, 0.39);
+    color: rgb(227, 252, 60);
+    padding-left: 150px;
+}
+.vid-fuchka{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 60px;
+    align-self: center;
+   
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.explore_btn{
+    background: yellow;
+    align-self: flex-start;
+}
+.explore_btn:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    background: rgb(12, 12, 12);
+}
+#item:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    background: transparent;
+}
+#item{
+    padding: 10px 15px;
+    border: none;
+    color: rgb(241, 232, 232);
+    transition: 0.2s ease-in-out;
+    background: transparent;
+}
+
+/* new added part
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown.starter-dropdown{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+}
+.drpdwn-content{
+    display: none;
+    position: absolute;
+}
+.dropdown:hover.drpdwn-content{
+    display: block;
+}*/
